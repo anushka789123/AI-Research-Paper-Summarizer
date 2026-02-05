@@ -47,12 +47,12 @@ The system uses LLMs with Retrieval-Augmented Generation (RAG) to reduce paper r
 ##  Project Structure
 
 AI-Research-Paper-Summarizer/
-│
-├── app.py # Streamlit frontend
-├── pdf_loader.py # PDF text extraction
-├── summarizer.py # LLM-based summarization
-├── rag_pipeline.py # RAG vector store creation
-├── Dataset/ # Research paper PDFs
-├── requirements.txt
-└── README.md
+
+-app.py # Streamlit frontend
+-pdf_loader.py # PDF text extraction
+-summarizer.py # LLM-based summarization
+-rag_pipeline.py # RAG vector store creation
+-Dataset/ # Research paper PDFs
+-requirements.txt
+
 
